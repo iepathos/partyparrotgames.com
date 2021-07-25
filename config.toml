@@ -1,4 +1,4 @@
-baseURL = "http://moonshotmonkey.com/"
+baseURL = "https://moonshotmonkey.com/"
 languageCode = "en-us"
 title = "Moonshot Monkey"
 theme = "keepit"
