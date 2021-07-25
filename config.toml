@@ -23,20 +23,21 @@ disqusShortname = "yourdiscussshortname"
  posts = "/:year/:filename/"
 
 [menu]
-  [[menu.main]]
-    name = "Blog"
-    url = "/posts/"
-    weight = 1
 
   [[menu.main]]
     name = "Save The Llama"
     url = "/stl"
-    weight = 3
+    weight = 1
 
   [[menu.main]]
     name = "About"
     url = "/about"
-    weight = 4
+    weight = 2
+
+   [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 3
 
 [params]
     since = 2021
