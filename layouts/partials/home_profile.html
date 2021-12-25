@@ -1,4 +1,53 @@
+<style type="text/css">
+    .intro {
+        transform: translateY(0vh) !important;
+    }
+
+    .video-container {
+        position: relative; 
+        padding-bottom: 43%; 
+        /*overflow: hidden;*/
+        max-width:  1080px;
+        margin: 0 auto 0 auto;
+    }
+
+    .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+    p {
+        max-width:  1080px;
+        margin: 0 auto 0 auto;
+    }
+</style>
+
 <div class="intro">
+    <h1>Save the Llama</h1>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/UfZpDrNpVAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <p>
+        Aliens are coming to steal your cows.  Assemble advanced towers from old farm equipment, mechanize the landscape, and erect an impenetrable perimeter to defend your livestock.  Construct your towers up moving platforms of different design and manage their movement and timing to your strategic advantage to defeat the waves of enemies.
+    </p>
+
+    <h3><a href="">Buy on Steam 2/2/22</a></h3>
+
+    <br>
+
+    <h1>Picnic Panic</h1>
+
+    <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/69yld5gwNe8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <p>
+        This colorful rogue-like top down fruit shooter is built with all of its art assets crafted using Houdini for the Houdini 2021 Game Jam.  Defend against waves of ants using colorful fruit projectiles that splatter juice everywhere as they go.  Delve into the ants' nest with Snarfle the snail and put an end to their food tyranny.  Each wave the player may choose from 3 fruits to boost their projectiles and abilities.  The game rewards players with a quick top down romp and abstract impressionist splatter art if they manage to defend their picnic.
+    </p>
+
+    <h3><a href="https://iepathos.itch.io/picnic-panic">Play now https://iepathos.itch.io/picnic-panic</a></h3>
+
+    <br>
+
     {{ $cdn_url := .Scratch.Get "cdn_url" }}
     {{ with .Site.Params.avatar}}
     {{ $avatar := .}}

@@ -1,6 +1,6 @@
-baseURL = "https://moonshotmonkey.com/"
+baseURL = "https://partyparrotgames.com/"
 languageCode = "en-us"
-title = "Moonshot Monkey"
+title = "Party Parrot Games"
 theme = "keepit"
 
 paginate = 12
@@ -22,27 +22,27 @@ disqusShortname = "yourdiscussshortname"
 [Permalinks]
  posts = "/:year/:filename/"
 
-[menu]
+# [menu]
 
-  [[menu.main]]
-    name = "Save The Llama"
-    url = "/stl"
-    weight = 1
+  # [[menu.main]]
+  #   name = "Save The Llama"
+  #   url = "/stl"
+  #   weight = 1
 
-  [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 2
+  # [[menu.main]]
+  #   name = "About"
+  #   url = "/about"
+  #   weight = 2
 
-   [[menu.main]]
-    name = "Blog"
-    url = "/posts/"
-    weight = 3
+   # [[menu.main]]
+   #  name = "Blog"
+   #  url = "/posts/"
+   #  weight = 3
 
 [params]
     since = 2021
-    author = "Moonshot Monkey"               # Author's name
-    subtitle = "A Game Development Company"       # Subtitle
+    author = "Party Parrot Games"               # Author's name
+    subtitle = "Keep the party going"       # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
     dateFormatToUse = "" # set date format, default "2 January 2006"
@@ -53,11 +53,11 @@ disqusShortname = "yourdiscussshortname"
     pinterest_verification = ""
     baidu_verification = ""
 
-    avatar = "/images/spacemonkey_logo_dribble.jpg" #comment it to use gravatar
+    # avatar = "/images/spacemonkey_logo_dribble.jpg" #comment it to use gravatar
     socialShare = true
 
-    description = "Moonshot Monkey is an indie game development company." # site description
-    keywords = "video games, development, indie, tower defense, save the llama, stl" # site keywords
+    description = "Party Parrot Games is an indie game startup." # site description
+    keywords = "video games, development, indie, tower defense, save the llama, stl, startup, picnic panic" # site keywords
 
     license= 'All rights reserved.'
 
@@ -68,21 +68,21 @@ disqusShortname = "yourdiscussshortname"
 [params.social]
     # GitHub = "xxxx"
     # Linkedin = "xxxx"
-    Twitter = "moonshotmonkey"
+    # Twitter = "moonshotmonkey"
     #Instagram = "xxxx"
-    Email   = "glen@moonshotmonkey.com"
-    Facebook = "moonshotmonkey"
+    Email   = "iepathos@gmail.com"
+    # Facebook = "partyparrotgames"
     #Telegram = "xxxx"
     #Medium = "xxxx"
     #Gitlab = "xxxx"
     #Youtubelegacy = "xxxx"
     #Youtubecustom = "xxxx"
-    #Youtubechannel = "xxxx"
+    Youtubechannel = "UCmQUr9Ts83yKhlK-LId5O_A"
     #Tumblr ="xxxx"
     #Quora = "xxxx"
     #Keybase = "xxxx"
     #Pinterest = "xxxx"
-    Reddit = "moonshotmonkey"
+    # Reddit = "moonshotmonkey"
     #Codepen = "xxxx"
     #Bitbucket = "xxxx"
     #Stackoverflow = "xxxxx"
@@ -104,7 +104,7 @@ disqusShortname = "yourdiscussshortname"
     #Hackernews = "xxxx"
     #Kickstarter = "xxxx"
     #Patreon = "xxxx"
-    #Steam = "xxxx"
+    Steam = "xxxx"
     #Twitch = "xxxx"
     #Strava = "xxxx"
     #Skype = "xxxx"
@@ -129,7 +129,7 @@ Twitter = true
 Facebook = true
 Reddit = true
 # Linkedin = true
-#Pinterest = true
+Pinterest = true
 #HackerNews = true
 #Mix = true
 #Tumblr = true
@@ -141,10 +141,10 @@ Reddit = true
 copyright = "All rights reserved."
 
 [author]
-  name = "Glen Baker"
+  name = "Glen Baker & Adam Clarke"
 
   [params.publisher]
-    name = "Glen Baker"
+    name = "Glen Baker & Adam Clarke"
 
     [params.publisher.logo]
       url = "logo.png"
