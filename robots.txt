@@ -63,4 +63,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://iepathos.github.io/partyparrotgames.com/sitemap.xml
+Sitemap: https://iepathos.github.io/sitemap.xml
