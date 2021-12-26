@@ -1,4 +1,4 @@
-baseURL = "https://iepathos.github.io/partyparrotgames.com"
+baseURL = "https://iepathos.github.io"
 languageCode = "en-us"
 title = "Party Parrot Games"
 theme = "keepit"
