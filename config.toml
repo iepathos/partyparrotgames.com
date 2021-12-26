@@ -66,6 +66,7 @@ disqusShortname = "yourdiscussshortname"
 
 
 [params.social]
+    Discord = "https://discord.gg/R3zXZ8Whck"
     # GitHub = "xxxx"
     # Linkedin = "xxxx"
     # Twitter = "moonshotmonkey"
