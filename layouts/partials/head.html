@@ -40,16 +40,6 @@
   {{ end }}
   {{- template "_internal/twitter_cards.html" . }}
   {{ partial "seo_schema.html" . }}
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-07TH3F0JQE"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-07TH3F0JQE');
-  </script>
 </head>
 {{ $cdn_url := ""}}
   {{ if eq ( getenv "HUGO_ENV" ) "production" }}
