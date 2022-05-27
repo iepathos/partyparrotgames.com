@@ -19,6 +19,9 @@ disqusShortname = "yourdiscussshortname"
   nofollowLinks = true
   noreferrerLinks = true
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [Permalinks]
  posts = "/:year/:filename/"
 
