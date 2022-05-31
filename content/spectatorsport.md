@@ -1,7 +1,7 @@
 ---
 title: "Spectator Sport"
 date: 2022-05-26T23:06:48-07:00
-draft: true
+draft: false
 ---
 
 <iframe src="https://iepathos.github.io/spectator/index.html"></iframe>
