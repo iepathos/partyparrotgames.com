@@ -145,10 +145,10 @@ Pinterest = true
 copyright = "All rights reserved."
 
 [author]
-  name = "Glen Baker & Adam Clarke"
+  name = "Glen Baker"
 
   [params.publisher]
-    name = "Glen Baker & Adam Clarke"
+    name = "Glen Baker"
 
     [params.publisher.logo]
       url = "logo.png"
